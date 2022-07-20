@@ -39,7 +39,11 @@
         pointer-events: none;
 
         img {
-            height: 28px;
+            height: 50px;
+
+            @include mobile {
+                height: 36px;
+            }
         }
     }
 
