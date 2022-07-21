@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 import Button from '../components/Button'
-
+import numberWithCommas from '../utils/numberWithCommas'
 
 const ProductView = props => {
 
@@ -62,10 +62,7 @@ const ProductView = props => {
             navigate('/cart')
     }
 
-    // number commas
-    function numberWithCommas(x) {
-        return x.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
-    }
+    
 
     return (
         <div className='product'>
