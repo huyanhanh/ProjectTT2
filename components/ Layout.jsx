@@ -5,6 +5,8 @@ import { Routes, Route } from 'react-router-dom'
 import Header from './Header'
 import Footer from './Footer'
 
+import ProductViewModal from './ProductViewModal'
+
 import Routing from '../routes/Routing'
 
 const Layout = () => {
@@ -19,6 +21,8 @@ const Layout = () => {
             </div>
           </div>
           <Footer />
+
+          <ProductViewModal />
         </div>
       )}
       />
