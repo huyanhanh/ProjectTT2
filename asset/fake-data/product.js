@@ -44,7 +44,8 @@ const products = [
         categorySlug: "ao-thun",
         colors: ["white", "red", "orange"],
         slug: "ao-thun-dinosaur-01",
-        size: ["s", "m", "l", "xl"]
+        size: ["s", "m", "l", "xl"],
+        description: "Nhắc đến sự đẳng cấp là không thể không nhắc đến dòng vải pima. Nó tạo nên chất lượng tốt nhất cho bất kỳ sản phẩm thời trang nào. Sợi vải pima dài và dày hơn sợi cotton thông thường gấp đôi nhờ công nghệ dệt tân tiến. Điều đó làm cho kết cấu áo polo chắc chắn, bền chặt, hạn chế tối đa xù lông, mềm mượt, bền màu, vô cùng đảm bảo sức khoẻ người dùng, Nhắc đến sự đẳng cấp là không thể không nhắc đến dòng vải pima. Nó tạo nên chất lượng tốt nhất cho bất kỳ sản phẩm thời trang nào. Sợi vải pima dài và dày hơn sợi cotton thông thường gấp đôi nhờ công nghệ dệt tân tiến. Điều đó làm cho kết cấu áo polo chắc chắn, bền chặt, hạn chế tối đa xù lông, mềm mượt, bền màu, vô cùng đảm bảo sức khoẻ người dùng, Nhắc đến sự đẳng cấp là không thể không nhắc đến dòng vải pima. Nó tạo nên chất lượng tốt nhất cho bất kỳ sản phẩm thời trang nào. Sợi vải pima dài và dày hơn sợi cotton thông thường gấp đôi nhờ công nghệ dệt tân tiến. Điều đó làm cho kết cấu áo polo chắc chắn, bền chặt, hạn chế tối đa xù lông, mềm mượt, bền màu, vô cùng đảm bảo sức khoẻ người dùng, Nhắc đến sự đẳng cấp là không thể không nhắc đến dòng vải pima. Nó tạo nên chất lượng tốt nhất cho bất kỳ sản phẩm thời trang nào. Sợi vải pima dài và dày hơn sợi cotton thông thường gấp đôi nhờ công nghệ dệt tân tiến. Điều đó làm cho kết cấu áo polo chắc chắn, bền chặt, hạn chế tối đa xù lông, mềm mượt, bền màu, vô cùng đảm bảo sức khoẻ người dùng, Nhắc đến sự đẳng cấp là không thể không nhắc đến dòng vải pima. Nó tạo nên chất lượng tốt nhất cho bất kỳ sản phẩm thời trang nào. Sợi vải pima dài và dày hơn sợi cotton thông thường gấp đôi nhờ công nghệ dệt tân tiến. Điều đó làm cho kết cấu áo polo chắc chắn, bền chặt, hạn chế tối đa xù lông, mềm mượt, bền màu, vô cùng đảm bảo sức khoẻ người dùng"
     },
     {
         title: "Áo thun Dinosaur 02",
@@ -54,7 +55,8 @@ const products = [
         categorySlug: "ao-thun",
         colors: ["white", "red", "blue"],
         slug: "ao-thun-dinosaur-02",
-        size: ["s", "m"]
+        size: ["s", "m"],
+        description: "Nhắc đến sự đẳng cấp là không thể không nhắc đến dòng vải pima. Nó tạo nên chất lượng tốt nhất cho bất kỳ sản phẩm thời trang nào. Sợi vải pima dài và dày hơn sợi cotton thông thường gấp đôi nhờ công nghệ dệt tân tiến. Điều đó làm cho kết cấu áo polo chắc chắn, bền chặt, hạn chế tối đa xù lông, mềm mượt, bền màu, vô cùng đảm bảo sức khoẻ người dùng"
     },
     {
         title: "Áo thun Dinosaur 03",
@@ -64,7 +66,8 @@ const products = [
         categorySlug: "ao-thun",
         colors: ["white", "red", "orange", "yellow"],
         slug: "ao-thun-dinosaur-03",
-        size: ["m"]
+        size: ["m"],
+        description: "Nhắc đến sự đẳng cấp là không thể không nhắc đến dòng vải pima. Nó tạo nên chất lượng tốt nhất cho bất kỳ sản phẩm thời trang nào. Sợi vải pima dài và dày hơn sợi cotton thông thường gấp đôi nhờ công nghệ dệt tân tiến. Điều đó làm cho kết cấu áo polo chắc chắn, bền chặt, hạn chế tối đa xù lông, mềm mượt, bền màu, vô cùng đảm bảo sức khoẻ người dùng"
     },
     {
         title: "Áo thun Polo 04",
@@ -74,7 +77,8 @@ const products = [
         categorySlug: "ao-thun",
         colors: ["white", "orange", "blue"],
         slug: "ao-thun-polo-04",
-        size: ["xl"]
+        size: ["xl"],
+        description: "Nhắc đến sự đẳng cấp là không thể không nhắc đến dòng vải pima. Nó tạo nên chất lượng tốt nhất cho bất kỳ sản phẩm thời trang nào. Sợi vải pima dài và dày hơn sợi cotton thông thường gấp đôi nhờ công nghệ dệt tân tiến. Điều đó làm cho kết cấu áo polo chắc chắn, bền chặt, hạn chế tối đa xù lông, mềm mượt, bền màu, vô cùng đảm bảo sức khoẻ người dùng"
     },
     {
         title: "Áo thun Polo 05",
@@ -84,7 +88,8 @@ const products = [
         categorySlug: "ao-thun",
         colors: ["white", "pink"],
         slug: "ao-thun-polo-05",
-        size: ["xxl"]
+        size: ["xxl"],
+        description: "Nhắc đến sự đẳng cấp là không thể không nhắc đến dòng vải pima. Nó tạo nên chất lượng tốt nhất cho bất kỳ sản phẩm thời trang nào. Sợi vải pima dài và dày hơn sợi cotton thông thường gấp đôi nhờ công nghệ dệt tân tiến. Điều đó làm cho kết cấu áo polo chắc chắn, bền chặt, hạn chế tối đa xù lông, mềm mượt, bền màu, vô cùng đảm bảo sức khoẻ người dùng"
     },
     {
         title: "Áo thun Polo 06",
@@ -94,7 +99,8 @@ const products = [
         categorySlug: "ao-thun",
         colors: ["black"],
         slug: "ao-thun-polo-06",
-        size: ["s", "m", "xl"]
+        size: ["s", "m", "xl"],
+        description: "Nhắc đến sự đẳng cấp là không thể không nhắc đến dòng vải pima. Nó tạo nên chất lượng tốt nhất cho bất kỳ sản phẩm thời trang nào. Sợi vải pima dài và dày hơn sợi cotton thông thường gấp đôi nhờ công nghệ dệt tân tiến. Điều đó làm cho kết cấu áo polo chắc chắn, bền chặt, hạn chế tối đa xù lông, mềm mượt, bền màu, vô cùng đảm bảo sức khoẻ người dùng"
     },
     {
         title: "Áo somi caro 07",
@@ -104,7 +110,8 @@ const products = [
         categorySlug: "ao-somi",
         colors: ["white", "red", "orange", "blue"],
         slug: "ao-somi-caro-07",
-        size: ["l", "xl"]
+        size: ["l", "xl"],
+        description: "Nhắc đến sự đẳng cấp là không thể không nhắc đến dòng vải pima. Nó tạo nên chất lượng tốt nhất cho bất kỳ sản phẩm thời trang nào. Sợi vải pima dài và dày hơn sợi cotton thông thường gấp đôi nhờ công nghệ dệt tân tiến. Điều đó làm cho kết cấu áo polo chắc chắn, bền chặt, hạn chế tối đa xù lông, mềm mượt, bền màu, vô cùng đảm bảo sức khoẻ người dùng"
     },
     {
         title: "Áo somi dài tay 08",
@@ -114,7 +121,8 @@ const products = [
         categorySlug: "ao-somi",
         colors: ["white", "red", "black"],
         slug: "ao-somi-dai-tay-08",
-        size: ["s", "m", "xl"]
+        size: ["s", "m", "xl"],
+        description: "Nhắc đến sự đẳng cấp là không thể không nhắc đến dòng vải pima. Nó tạo nên chất lượng tốt nhất cho bất kỳ sản phẩm thời trang nào. Sợi vải pima dài và dày hơn sợi cotton thông thường gấp đôi nhờ công nghệ dệt tân tiến. Điều đó làm cho kết cấu áo polo chắc chắn, bền chặt, hạn chế tối đa xù lông, mềm mượt, bền màu, vô cùng đảm bảo sức khoẻ người dùng"
     },
     {
         title: "Áo somi tay dài 09",
@@ -124,7 +132,8 @@ const products = [
         categorySlug: "ao-somi",
         colors: ["white", "blue"],
         slug: "ao-somi-tay-dai-09",
-        size: ["m"]
+        size: ["m"],
+        description: "Nhắc đến sự đẳng cấp là không thể không nhắc đến dòng vải pima. Nó tạo nên chất lượng tốt nhất cho bất kỳ sản phẩm thời trang nào. Sợi vải pima dài và dày hơn sợi cotton thông thường gấp đôi nhờ công nghệ dệt tân tiến. Điều đó làm cho kết cấu áo polo chắc chắn, bền chặt, hạn chế tối đa xù lông, mềm mượt, bền màu, vô cùng đảm bảo sức khoẻ người dùng"
     },
     {
         title: "Quần jean phong cách 10",
@@ -134,7 +143,8 @@ const products = [
         categorySlug: "quan-jean",
         colors: ["blue", "black"],
         slug: "quan-jean-phong-cach-10",
-        size: ["l"]
+        size: ["l"],
+        description: "Nhắc đến sự đẳng cấp là không thể không nhắc đến dòng vải pima. Nó tạo nên chất lượng tốt nhất cho bất kỳ sản phẩm thời trang nào. Sợi vải pima dài và dày hơn sợi cotton thông thường gấp đôi nhờ công nghệ dệt tân tiến. Điều đó làm cho kết cấu áo polo chắc chắn, bền chặt, hạn chế tối đa xù lông, mềm mượt, bền màu, vô cùng đảm bảo sức khoẻ người dùng"
     },
     {
         title: "Quần jean 11",
@@ -144,7 +154,8 @@ const products = [
         categorySlug: "quan-jean",
         colors: ["blue", "black"],
         slug: "quan-jean-11",
-        size: ["s", "m", "xl"]
+        size: ["s", "m", "xl"],
+        description: "Nhắc đến sự đẳng cấp là không thể không nhắc đến dòng vải pima. Nó tạo nên chất lượng tốt nhất cho bất kỳ sản phẩm thời trang nào. Sợi vải pima dài và dày hơn sợi cotton thông thường gấp đôi nhờ công nghệ dệt tân tiến. Điều đó làm cho kết cấu áo polo chắc chắn, bền chặt, hạn chế tối đa xù lông, mềm mượt, bền màu, vô cùng đảm bảo sức khoẻ người dùng"
     },
     {
         title: "Quần jean 12",
@@ -154,7 +165,8 @@ const products = [
         categorySlug: "quan-jean",
         colors: ["blue"],
         slug: "quan-jean-12",
-        size: ["s", "m", "xl"]
+        size: ["s", "m", "xl"],
+        description: "Nhắc đến sự đẳng cấp là không thể không nhắc đến dòng vải pima. Nó tạo nên chất lượng tốt nhất cho bất kỳ sản phẩm thời trang nào. Sợi vải pima dài và dày hơn sợi cotton thông thường gấp đôi nhờ công nghệ dệt tân tiến. Điều đó làm cho kết cấu áo polo chắc chắn, bền chặt, hạn chế tối đa xù lông, mềm mượt, bền màu, vô cùng đảm bảo sức khoẻ người dùng"
     },
     {
         title: "Áo thun Dinosaur 13",
@@ -164,7 +176,8 @@ const products = [
         categorySlug: "ao-thun",
         colors: ["white", "red"],
         slug: "ao-thun-dinosaur-13",
-        size: ["s", "m", "xl"]
+        size: ["s", "m", "xl"],
+        description: "Nhắc đến sự đẳng cấp là không thể không nhắc đến dòng vải pima. Nó tạo nên chất lượng tốt nhất cho bất kỳ sản phẩm thời trang nào. Sợi vải pima dài và dày hơn sợi cotton thông thường gấp đôi nhờ công nghệ dệt tân tiến. Điều đó làm cho kết cấu áo polo chắc chắn, bền chặt, hạn chế tối đa xù lông, mềm mượt, bền màu, vô cùng đảm bảo sức khoẻ người dùng"
     },
     {
         title: "Áo thun Dinosaur 14",
@@ -174,7 +187,8 @@ const products = [
         categorySlug: "ao-thun",
         colors: ["white", "blue"],
         slug: "ao-thun-dinosaur-14",
-        size: ["s", "m"]
+        size: ["s", "m"],
+        description: "Nhắc đến sự đẳng cấp là không thể không nhắc đến dòng vải pima. Nó tạo nên chất lượng tốt nhất cho bất kỳ sản phẩm thời trang nào. Sợi vải pima dài và dày hơn sợi cotton thông thường gấp đôi nhờ công nghệ dệt tân tiến. Điều đó làm cho kết cấu áo polo chắc chắn, bền chặt, hạn chế tối đa xù lông, mềm mượt, bền màu, vô cùng đảm bảo sức khoẻ người dùng"
     },
     {
         title: "Áo thun Dinosaur 15",
@@ -184,7 +198,8 @@ const products = [
         categorySlug: "ao-thun",
         colors: ["red", "blue"],
         slug: "ao-thun-dinosaur-15",
-        size: ["xl"]
+        size: ["xl"],
+        description: "Nhắc đến sự đẳng cấp là không thể không nhắc đến dòng vải pima. Nó tạo nên chất lượng tốt nhất cho bất kỳ sản phẩm thời trang nào. Sợi vải pima dài và dày hơn sợi cotton thông thường gấp đôi nhờ công nghệ dệt tân tiến. Điều đó làm cho kết cấu áo polo chắc chắn, bền chặt, hạn chế tối đa xù lông, mềm mượt, bền màu, vô cùng đảm bảo sức khoẻ người dùng"
     },
     {
         title: "Áo somi dài tay 16",
@@ -194,7 +209,8 @@ const products = [
         categorySlug: "ao-somi",
         colors: ["blue", "black"],
         slug: "ao-somi-dai-tay-16",
-        size: ["m", "xl"]
+        size: ["m", "xl"],
+        description: "Nhắc đến sự đẳng cấp là không thể không nhắc đến dòng vải pima. Nó tạo nên chất lượng tốt nhất cho bất kỳ sản phẩm thời trang nào. Sợi vải pima dài và dày hơn sợi cotton thông thường gấp đôi nhờ công nghệ dệt tân tiến. Điều đó làm cho kết cấu áo polo chắc chắn, bền chặt, hạn chế tối đa xù lông, mềm mượt, bền màu, vô cùng đảm bảo sức khoẻ người dùng"
     },
     {
         title: "Áo somi tay dài 17",
@@ -204,7 +220,8 @@ const products = [
         categorySlug: "ao-somi",
         colors: ["white", "blue"],
         slug: "ao-somi-tay-dai-17",
-        size: ["s", "l", "xl"]
+        size: ["s", "l", "xl"],
+        description: "Nhắc đến sự đẳng cấp là không thể không nhắc đến dòng vải pima. Nó tạo nên chất lượng tốt nhất cho bất kỳ sản phẩm thời trang nào. Sợi vải pima dài và dày hơn sợi cotton thông thường gấp đôi nhờ công nghệ dệt tân tiến. Điều đó làm cho kết cấu áo polo chắc chắn, bền chặt, hạn chế tối đa xù lông, mềm mượt, bền màu, vô cùng đảm bảo sức khoẻ người dùng"
     },
     {
         title: "Quần jean phong cách 18",
@@ -214,7 +231,8 @@ const products = [
         categorySlug: "quan-jean",
         colors: ["blue", "black"],
         slug: "quan-jean-phong-cach-18",
-        size: ["s", "m", "l", "xl"]
+        size: ["s", "m", "l", "xl"],
+        description: "Nhắc đến sự đẳng cấp là không thể không nhắc đến dòng vải pima. Nó tạo nên chất lượng tốt nhất cho bất kỳ sản phẩm thời trang nào. Sợi vải pima dài và dày hơn sợi cotton thông thường gấp đôi nhờ công nghệ dệt tân tiến. Điều đó làm cho kết cấu áo polo chắc chắn, bền chặt, hạn chế tối đa xù lông, mềm mượt, bền màu, vô cùng đảm bảo sức khoẻ người dùng"
     },
     // 18 products
 ]
