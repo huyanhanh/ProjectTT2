@@ -4,6 +4,9 @@ import reportWebVitals from './reportWebVitals';
 
 import { BrowserRouter } from 'react-router-dom'
 
+import { store } from './redux/store';
+import { Provider } from 'react-redux';
+
 import './sass/index.scss'
 import './asset/boxicons-2.0.7/css/boxicons.min.css'
 
@@ -13,7 +16,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Layout />
+      <Provider store={store}>
+        <Layout />
+      </Provider>
     </BrowserRouter>
   </React.StrictMode>
 );
