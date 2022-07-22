@@ -1,13 +1,27 @@
 import React, { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 
+import { useDispatch } from 'react-redux'
+
+import { addItem } from '../redux/shopping-cart/cartItemsSlide'
+
 import PropTypes from 'prop-types'
 import Button from '../components/Button'
 import numberWithCommas from '../utils/numberWithCommas'
 
+
 const ProductView = props => {
 
-    const product = props.product
+    const dispatch = useDispatch()
+
+    let product = props.product
+
+    if (product === undefined) product = {
+        price: 0,
+        title: "",
+        colors: [],
+        size: []
+    }
 
     const [previewImg, setPreviewImg] = useState(product.image01)
 
@@ -25,6 +39,7 @@ const ProductView = props => {
         setColor()
         setSize()
     }, [product])
+
     // cai nay chi su dung 1 cho nen khong can goi ham rieng => khong can thiet
     // const updateQuantity =  type => {
     //     if (type === plus) {
@@ -50,19 +65,34 @@ const ProductView = props => {
     }
 
     const addToCart = () => {
-        if (check())
-            console.log({ color, size, quantity })
-
+        if (check()) {
+            dispatch(addItem({
+                slug: product.slug,
+                color: color,
+                size: size,
+                quantity: quantity,
+                price: product.price
+            }))
+            alert('Success')
+        }
     }
 
     const navigate = useNavigate()
 
     const goToCart = () => {
-        if (check())
+        if (check()) {
             navigate('/cart')
+            dispatch(addItem({
+                slug: product.slug,
+                color: color,
+                size: size,
+                quantity: quantity,
+                price: product.price
+            }))
+        }
     }
 
-    
+
 
     return (
         <div className='product'>
@@ -189,7 +219,7 @@ const ProductView = props => {
 }
 
 ProductView.propTypes = {
-    product: PropTypes.object.isRequired
+    product: PropTypes.object
 }
 
 export default ProductView

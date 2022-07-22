@@ -4,13 +4,12 @@ const initialState = {
     value: null
 }
 
-export const productModalSlice = createSlide({
+export const productModalSlice = createSlice({
     name: 'productModal',
     initialState,
     reducers: {
-        // giong switch case reducer cua hook useReducer
         set: (state, action) => {
-            state.value
+            state.value = action.payload
         },
 
         remove: (state) => {
@@ -19,5 +18,7 @@ export const productModalSlice = createSlide({
     }
 })
 
-export const { set, remove } = productModalSlice.action
-console.log(set)
+export const { set, remove } = productModalSlice.actions
+
+
+export default productModalSlice.reducer
